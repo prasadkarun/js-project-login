@@ -1,0 +1,93 @@
+*{
+margin: 0;
+padding: 0;
+}
+.wapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: orange;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modelform{
+    width: 300px;
+    min-height: 80vh;
+    background-color: white;
+    border-radius: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.actionBtns{
+    width: 80%;
+    background-color: blue;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 50px;
+}
+.moveBtn{
+    position: absolute;
+    width: 50%;
+    height: 90%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: white;
+    font-size: o.8em;
+    font-weight: 600;
+    transform: translatex(0);
+    transition: all o.2s ease-in-out;
+
+}
+.actionBtn{
+    padding: 1em;
+    width: 50%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+}
+.rightBtn{
+    transform: translatex(98%);
+    transition: all 0.2s ease-in-out;
+}
+.inputgroup{
+    width: 230px;
+    margin: 0.8em 0;
+    border-radius: 50px;
+    border-color: rgba(245, 245, 245);
+}
+.inputgroup input{
+    width: 80%;
+    padding: 2px 4px;
+    border-color: rgba(245, 245, 245);
+    border-radius: 50px;
+    
+}
+.submitBtn{
+    width: 5px;
+    padding: 1em;
+    margin: 2em 0;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+}
+.form{
+    display: none;
+}
+.signupform{
+    display: block;
+}
+.loginform{
+    display: block;
+}
